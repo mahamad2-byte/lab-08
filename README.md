@@ -1,11 +1,12 @@
 # CMPUT 301: Lab 8 Participation Exercise
 
 ## Student Details
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Mohammed Hamad`
+- **CCID:** `mahamad2`
 
 ## References and Resources
-List any resources used here, or simply put `N/A` if not applicable.
+CMPUT 301 Lab Session: Used lab session explanations and examples to understand continuous integration CI and Test-Driven Development TDD
+University of Alberta Canvaa : Used the CMPUT 301 Lab 8 instruction and course materials
 
 ## Verbal Collaboration
-List students' names and CCIDs here, or simply put `N/A` if not applicable. 
+NA
