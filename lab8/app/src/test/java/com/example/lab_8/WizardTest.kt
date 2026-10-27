@@ -39,5 +39,19 @@ import org.junit.Test
             evilWizard.restoreMana(80)
             assertEquals(100, evilWizard.mana)
         }
-    }
+        @Test
+        fun train_enoughMana_increaseSpellPower() {
+            evilWizard. train()
+            assertEquals(11, evilWizard.spellPower)
+            assertEquals(25, evilWizard.mana)
 
+        }
+        @Test
+        fun train_notEnoughMana_noChanges(){
+            evilWizard.mana = 3
+            evilWizard.train()
+
+            assertEquals(10, evilWizard.spellPower)
+            assertEquals(3, evilWizard.mana)
+        }
+    }
